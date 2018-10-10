@@ -9,7 +9,7 @@ body {
 
 /* Initial menu */
 .menu {
-  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  background: #202024 url('../images/black-thread.png') repeat left top;
   left: -285px;  /* start off behind the scenes */
   height: 100%;
   position: fixed;
@@ -19,8 +19,8 @@ body {
 /* Basic styling */
 
 .jumbotron_home {
-  background-image: url('../images/awesome-railway-road-image.jpg'); 
-  height: 100px;
+  background-image: url('../images/ws_Blue_Minimalist.jpg'); 
+  height: 125px;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -34,8 +34,8 @@ body {
 }
 
 .jumbotron_about {
-  background-image: url('../images/sky2.jpg'); 
-  height: 100px;
+  background-image: url('../images/metal.jpg'); 
+  height: 125px;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -49,8 +49,8 @@ body {
 }
 
 .jumbotron_contact {
-  background-image: url('../images/sky3.jpg'); 
-  height: 100px;
+  background-image: url('../images/light_metal.jpg'); 
+  height: 125px;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -63,16 +63,16 @@ body {
     font-size: 50px;
 }
 
-.jumbotron_blog {
-  background-image: url('../images/boards.jpg'); 
-  height: 100px;
+.jumbotron_register {
+  background-image: url('../images/fundo-com-gradiente.jpg'); 
+  height: 125px;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
 }
 
-.blogHeader {
+.registerHeader {
     padding: 10px;
     text-align: center;
     font-size: 50px;
@@ -219,8 +219,8 @@ span.psw {
 
 /* Style the footer */
 .footer {
-    background-color: #f1f1f1;
-    padding: 10px;
+    background-color: grey;
+    padding: 5px;
     text-align: center;
 }
 
