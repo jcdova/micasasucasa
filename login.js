@@ -23,7 +23,7 @@ $("#login").on("click", function() {
         checkUser === "jorge" && checkPassword === "caro" ||
         checkUser === "glen" && checkPassword === "shooks") {
         
-        window.open('index.html');
+        window.open('index.html', '_self');
        
     } else {
     alert("Incorrect username or password, Please try again")
