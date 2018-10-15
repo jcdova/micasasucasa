@@ -12,5 +12,13 @@ var main = function() {
     })
 }
 
+// $("#form").on("click", function() {
+//     event.preventDefault();
+//     window.open("https://goo.gl/forms/rnTFT84LFfxmJlUA3", '_self')
+// });
+
 
 $(document).ready(main)
+
+
+

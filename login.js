@@ -19,13 +19,16 @@ $("#login").on("click", function() {
     checkUser = $("#UserId").val().trim();
     checkPassword = $("#passWord").val().trim();
 
+
     if (checkUser === "analydia" && checkPassword === "shooks" ||
         checkUser === "jorge" && checkPassword === "caro" ||
         checkUser === "glen" && checkPassword === "shooks") {
-        
+
         window.open('index.html', '_self');
        
     } else {
-    alert("Incorrect username or password, Please try again")
+    alert("Incorrect Username or Password, Please try again")
     }
 });
+
+
