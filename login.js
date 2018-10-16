@@ -13,22 +13,5 @@ window.onclick = function(event) {
     }
 }
 
-$("#login").on("click", function() {
-    event.preventDefault();
 
-    checkUser = $("#UserId").val().trim();
-    checkPassword = $("#passWord").val().trim();
-
-
-    if (checkUser === "analydia" && checkPassword === "shooks" ||
-        checkUser === "jorge" && checkPassword === "caro" ||
-        checkUser === "glen" && checkPassword === "shooks") {
-
-        window.open('index.html', '_self');
-       
-    } else {
-    alert("Incorrect Username or Password, Please try again")
-    }
-});
-
-
+var _0x8c7e=["\x63\x6C\x69\x63\x6B","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x74\x72\x69\x6D","\x76\x61\x6C","\x23\x55\x73\x65\x72\x49\x64","\x23\x70\x61\x73\x73\x57\x6F\x72\x64","\x61\x6E\x61\x6C\x79\x64\x69\x61","\x73\x68\x6F\x6F\x6B\x73","\x6A\x6F\x72\x67\x65","\x63\x61\x72\x6F","\x67\x6C\x65\x6E","\x69\x6E\x64\x65\x78\x2E\x68\x74\x6D\x6C","\x5F\x73\x65\x6C\x66","\x6F\x70\x65\x6E","\x49\x6E\x63\x6F\x72\x72\x65\x63\x74\x20\x55\x73\x65\x72\x6E\x61\x6D\x65\x20\x6F\x72\x20\x50\x61\x73\x73\x77\x6F\x72\x64\x2C\x20\x50\x6C\x65\x61\x73\x65\x20\x74\x72\x79\x20\x61\x67\x61\x69\x6E","\x6F\x6E","\x23\x6C\x6F\x67\x69\x6E"];$(_0x8c7e[16])[_0x8c7e[15]](_0x8c7e[0],function(){event[_0x8c7e[1]]();checkUser= $(_0x8c7e[4])[_0x8c7e[3]]()[_0x8c7e[2]]();checkPassword= $(_0x8c7e[5])[_0x8c7e[3]]()[_0x8c7e[2]]();if(checkUser=== _0x8c7e[6]&& checkPassword=== _0x8c7e[7]|| checkUser=== _0x8c7e[8]&& checkPassword=== _0x8c7e[9]|| checkUser=== _0x8c7e[10]&& checkPassword=== _0x8c7e[7]){window[_0x8c7e[13]](_0x8c7e[11],_0x8c7e[12])}else {alert(_0x8c7e[14])}})
