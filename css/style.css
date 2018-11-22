@@ -209,7 +209,7 @@ span.psw {
 /* Create three unequal columns that sits next to each other */
 .column {
     padding: 25px;
-    /*height: 400px;*/ /* Should be removed. Only for demonstration */
+    /*height: 1200px; */ /* Should be removed. Only for demonstration */
     text-align: center;
     margin: 20px
 }
