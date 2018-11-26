@@ -219,11 +219,12 @@ span.psw {
 .row {
     display: -webkit-flex;
     display: flex;
+    justify-content: center;
 }
 
 /* Create three unequal columns that sits next to each other */
 .column {
-     padding: 25px;
+    padding: 25px;
     -webkit-flex: 5;
     -ms-flex: 5;
     flex: 5;
