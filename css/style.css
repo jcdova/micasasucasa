@@ -12,6 +12,10 @@ h1 {
   font-family: Harrington;
  }
 
+#a_Enlarge {
+  font-size: x-large;
+}
+
 /* Initial menu */
 .menu {
   background: #202024 url('../images/black-thread.png') repeat left top;
@@ -283,6 +287,10 @@ span.psw {
     .row {
       -webkit-flex-direction: column;
       flex-direction: column;
+    }
+    a {
+      display: flex;
+      justify-content: center;
     }
 }
 
