@@ -250,6 +250,21 @@ span.psw {
 
 /* Middle column */
 .column_middle {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    /*box-shadow: 0 0 80px rgba(0, 100, 100, 100);*/
+    text-align: center;
+    margin: 20px
+}
+
+/* Middle column */
+.column_video {
+    display: flex;
+    justify-content: center;
     padding: 25px;
     -webkit-flex: 2;
     -ms-flex: 2;

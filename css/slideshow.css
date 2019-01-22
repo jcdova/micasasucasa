@@ -9,7 +9,25 @@
   box-shadow: 0 0 60px rgba(0, 0, 0, 10);
 }
 
+#slideshow_mid {
+  /*margin: 80px auto;*/
+  border:3px solid #ffffff;
+  position: relative;
+  width: 800px;
+  height: 700px;
+  padding: 10px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 10);
+}
+
 #slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+#slideshow_mid > div {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -23,6 +41,11 @@
 }
 
 #slide_mid {
-  width: 300px;
+  width: 800px;
+  height: 700px;
+}
+
+#slide_vid {
+  width: 525px;
   height: 300px;
 }
