@@ -1,14 +1,14 @@
 var baseURl = "",
     slideImg = [
-        "./images/house/IMG_0001.JPG",
-        "./images/house/IMG_0002.JPG",
-        "./images/house/IMG_0003.JPG",
-        "./images/house/IMG_0004.JPG",
-        "./images/house/IMG_0005.JPG",
-        "./images/house/IMG_0006.JPG",
-        "./images/house/IMG_0007.JPG",
-        "./images/house/IMG_0008.JPG",
-        "./images/house/IMG_0009.JPG"
+        "./images/house/IMG_0001.jpg",
+        "./images/house/IMG_0002.jpg",
+        "./images/house/IMG_0003.jpg",
+        "./images/house/IMG_0004.jpg",
+        "./images/house/IMG_0005.jpg",
+        "./images/house/IMG_0006.jpg",
+        "./images/house/IMG_0007.jpg",
+        "./images/house/IMG_0008.jpg",
+        "./images/house/IMG_0009.jpg"
     ],
     $gallery = $("#gallery");
 
