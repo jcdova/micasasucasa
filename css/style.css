@@ -252,13 +252,13 @@ span.psw {
 .column_middle {
     display: flex;
     justify-content: center;
-    padding: 25px;
+    /*padding: 25px;*/
     -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
     /*box-shadow: 0 0 80px rgba(0, 100, 100, 100);*/
     text-align: center;
-    margin: 20px
+    /*margin: 20px*/
 }
 
 /* Middle column */
@@ -299,7 +299,7 @@ span.psw {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
+@media (max-width: 359px) {
     .row {
       -webkit-flex-direction: column;
       flex-direction: column;
